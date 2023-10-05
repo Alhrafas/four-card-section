@@ -1,0 +1,123 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 15px;
+}
+
+
+
+.wrapper {
+      padding: 2em;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      /* text-align: center; */
+      /* justify-content: space-between; */
+}
+
+.tech {
+      /* border: 1px solid red; */
+      width: 100%;
+      /* padding: 1em; */
+      margin-bottom: 3rem;
+}
+
+.first {
+      /* border: 1px solid red; */
+      font-size: 1.68rem;
+      opacity: 0.4;
+      margin-bottom: 0.5rem;
+}
+
+.power {
+      /* border: 1px solid gold; */
+      font-weight: 8000;
+      font-size: 1.82rem;
+      margin-bottom: 0.7em;
+      
+}
+
+
+.tech p {
+      /* border: 1px solid red; */
+      text-align: center;
+      opacity: 0.4;
+      font-size: 1.1rem;
+
+}
+
+.super {
+      /* border: 1px solid red; */
+      padding: 1em;
+      height: 220px;
+      margin-bottom: 2em;
+      border-radius: 5px;
+      display: block;
+      border-top: 5px solid hsl(180, 62%, 55%);
+      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.super h1, .team h1, .quality h1, .calculator h1 {
+      /* border: 1px solid tomato; */
+      font-size: 1.3rem;
+      opacity: 0.9;
+      margin-bottom: 0.4em;
+}
+
+.super p, .team p, .quality p, .calculator p {
+      /* border: 1px solid yellow; */
+      font-size: 1rem;
+      font-weight: lighter;
+      opacity: 0.4;
+}
+
+
+.super-img, .team-img, .karma-img, .cal-img {
+      margin-top: 1.6em;
+      /* border: 1px solid gold; */
+      text-align: right;
+      width: 100%;
+}
+
+.team {
+      /* border: 1px solid red; */
+      padding: 1em;
+      height: 230px;
+      margin-bottom: 2em;
+      border-radius: 5px;
+      border-top: 5px solid hsl(0, 78%, 62%);
+      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quality {
+      /* border: 1px solid red; */
+      padding: 1em;
+      height: 230px;
+      margin-bottom: 2em;
+      border-radius: 5px;
+      border-top: 5px solid hsl(34, 97%, 64%);
+      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.calculator {
+      /* border: 1px solid red; */
+      padding: 1em;
+      height: 230px;
+      margin-bottom: 2em;
+      border-radius: 5px;
+      border-top: 5px solid hsl(212, 86%, 64%);
+      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width: 1440px) {
+      .wrapper {
+            border: 1px solid red;
+            display: grid;
+            
+      }
+}
+      
