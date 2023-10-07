@@ -24,7 +24,7 @@
 
 .first {
       /* border: 1px solid red; */
-      font-size: 1.68rem;
+      font-size: 1.6rem;
       opacity: 0.4;
       margin-bottom: 0.5rem;
 }
@@ -32,7 +32,7 @@
 .power {
       /* border: 1px solid gold; */
       font-weight: 8000;
-      font-size: 1.82rem;
+      font-size: 1.7rem;
       margin-bottom: 0.7em;
       
 }
@@ -115,9 +115,62 @@
 
 @media screen and (min-width: 1440px) {
       .wrapper {
-            border: 1px solid red;
-            display: grid;
+            /* border: 1px solid red; */
+            display: flex;
+            flex-wrap: wrap;
+            height: 800px;
+            justify-content: center;
+          
             
+      }
+
+      .tech {
+            /* border: 1px solid greenyellow; */
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            /* font-size: 4rem; */
+      }
+
+      .tech p {
+            /* border: 1px solid blue; */
+            width: 83%;
+            margin-left: 8%;
+      }
+
+      .quality {
+            order: 4;
+            width: 25%;
+            margin-top: 36%;
+      }
+
+      .team, .quality {
+            /* border: 1px solid blue; */
+            position: fixed;
+      }
+
+      .team {
+            /* border: 1px solid gold; */
+            width: 25%;
+            /* font-size: 4rem; */
+            position: absolute;
+            
+      }
+
+      .super, .calculator {
+            margin-bottom: 5%;
+            width: 25%;
+            /* font-size: 4rem; */
+            position: relative;
+      }
+
+      .super {
+            margin-right: 30%;
+      }
+
+      .calculator {
+            margin-left: %
       }
 }
       
