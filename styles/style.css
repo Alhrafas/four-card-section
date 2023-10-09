@@ -115,11 +115,11 @@
 
 @media screen and (max-width: 360px) {
       .tech {
-            border: 1px solid red;
+            /* border: 1px solid red; */
       }
 
       .first {
-            border: 1px solid red;
+            /* border: 1px solid red; */
             font-size: 1.5rem;
       }
 
@@ -142,8 +142,6 @@
             flex-wrap: wrap;
             height: 800px;
             justify-content: center;
-          
-            
       }
 
       .tech {
