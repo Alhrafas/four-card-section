@@ -113,6 +113,28 @@
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+@media screen and (max-width: 360px) {
+      .tech {
+            border: 1px solid red;
+      }
+
+      .first {
+            border: 1px solid red;
+            font-size: 1.5rem;
+      }
+
+      .power {
+            font-size: 1.6rem;
+      }
+}
+
+@media screen and (min-width: 361px) and (max-width: 414px) {
+      .tech {
+            font-size: 1.5rem;
+      }
+      
+}
+
 @media screen and (min-width: 1440px) {
       .wrapper {
             /* border: 1px solid red; */
@@ -169,8 +191,6 @@
             margin-right: 30%;
       }
 
-      .calculator {
-            margin-left: %
-      }
+      
 }
       
